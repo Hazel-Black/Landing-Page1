@@ -1,0 +1,62 @@
+body{
+    background-color: hsl(257, 40%, 49%);
+    margin: 0px;
+    font-family: Open Sans;
+}
+h1{
+    font-family: Poppins;
+}
+.right-section{
+    width: 25%;
+    position: absolute;
+    right: 10%;
+    top: 35%;
+    color: white;
+}
+.backdrop{
+    position: fixed;
+    z-index: 1px;
+}
+.picture{
+    position: absolute;
+    z-index: 2px;
+    left: 5%;
+    top: 30%;
+
+}
+.logo{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+.paragraph{
+    font-size: small;
+    
+    
+}
+button{
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, .15);
+    cursor: pointer;
+
+}
+button:hover{
+    color: white;
+    background-color: hsl(300, 69%, 71%);
+    transition: .15s;
+}
+.attribution{
+    position: fixed;
+    top: 95%;
+    left: 40%;
+    color: white;
+    font-weight: bold;
+}
+.link-container{
+    width: 30px;
+}
+
